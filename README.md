@@ -9,7 +9,7 @@ npm install
 Installation is done.
 # Configure first
 'config/config.json' -> enter your Binance APIKEY and APISECRET<br>
-'config/exchange.json' -> enter your parameters
+'config/exchange.json' -> enter your exchange parameters
 
 Note:
 This version makes order fee with BNB to less fee. So get some BNB before you trade. And activate this option from your account:
