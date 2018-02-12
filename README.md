@@ -7,7 +7,7 @@ cd bitbot_binance
 npm install
 ```
 Installation is done.
-# Config
+# Configure first
 config/config.json enter your Binance APIKEY and APISECRET<br>
 config/exchange.json enter your parameters
 
