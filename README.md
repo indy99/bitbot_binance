@@ -29,4 +29,4 @@ for more info: https://kartimbu.com/bitbot/
 Thanks jaggedsoft for repo: https://github.com/jaggedsoft/node-binance-api
 
 ***
-If you like this bot you can send some coins <a href="https://kartimbu.com/pay-acik.php" target="_blank">here</a> to develop the project.
+If you like this bot you can send some coins <a href="https://kartimbu.com/pay-acik.php" target="_blank">here</a> to developing the project.
