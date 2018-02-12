@@ -12,7 +12,7 @@ Installation is done.
 'config/exchange.json' -> enter your exchange parameters
 
 Note:
-This version makes order fee with BNB to less fee. So get some BNB before you trade. And activate this option from your account:
+This version makes order fee with BNB to less fee. So get some BNB before you trade. And activate this option from your  Binance account:
 ```
 Using BNB to pay for fees（50% discount）-> make ON
 ```
