@@ -1,0 +1,334 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin:0
+        }
+
+        table {
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .label {
+            color: darkslategrey;
+            font-size: 14px;
+        }
+
+        button {
+            border-radius: 3px;
+            background-color: white
+        }
+
+        .btn_on {
+            border: solid red 4px
+        }
+
+        .btn_off {
+            border: solid white 4px
+        }
+        #wrap {
+          min-height: 100%;
+          height: auto;
+          margin: 10 auto -50px;
+          padding: 0 10px 50px;
+        }
+        #footer {
+          background-color:#666666; 
+          color:#ffffff;
+          height: 50px;
+       }
+
+    </style>
+</head>
+
+<body style="background-color:darkslateblue">
+
+    <div id="wrap">
+    <div style="width: 80%; margin:auto">
+        <table style="background-color:aliceblue; width: 100%" align=center>
+            <tr>
+                <td><span id="CURR" style="color:#ff33cc"></span></td>
+                <td><span id="alive" class="label"></span><br><span id="proggress" style="color: blue"></span><span id="order_paused"></span></td>
+                <td><span class="label">Peak</span><br><span id="limit_top"></span></td>
+                <td><span class="label">Profit Now</span><br>% <span id="profit_now"></span></td>
+            </tr>
+            <tr>
+                <td style="color:#00bb00"><span class="label">Buy Value (Ask)</span><br><span id="value_now_buy"></span></td>
+                <td style="color:#ff0000"><span class="label">Sell Value (Bid)</span><br> <span id="value_now_sell"></span></td>
+                <td><span class="label">Value Last Buy</span><br><span id="value_last_buy"></span></td>
+                <td><span class="label">Value Last Sell</span><br><span id="value_last_sell"></span></td>
+            </tr>
+        </table>
+        <br>
+
+        <table style="background-color: aquamarine; width: 100%" align=center>
+            <tr>
+                <td><span class="label"><span id="c1name">Balance1</span> Balance</span><br><span id="balance_1"></span></td>
+                <td><span class="label"><span id="c2name">Balance2</span> Balance</span><br><span id="balance_2"></span></td>
+                <td align="right"><span class="label">BNB Balance<br>(for order fee)</span><br><span id="balance_bnb"></span></td>
+            </tr>
+        </table>
+
+        <br>
+        <table style="background-color: black; width: 100%" align=center>
+            <tr style="color:#00ff00">
+                <td> <span id="log_info"></span></td>
+            </tr>
+            <tr style="color:red">
+                <td><span id="log_err"></span></td>
+            </tr>
+            <tr style="color:red">
+                <td><span id="ajax_err"></span></td>
+            </tr>
+            <tr style="color:red">
+                <td><span id="obok"></span></td>
+            </tr>
+            <tr style="color:darkorange; font-size: 14px">
+                <td><span id="log_opt"></span></td>
+            </tr>
+        </table>
+
+        <br>
+        <div align="right" style="color:white; font-size: 12px">
+            <span id="req_icon" style="visibility: hidden">|...|</span> 
+            <select id="sl_refresh"><option>1</option><option>3</option><option>5</option><option>10</option><option>30</option></select>
+             sec 
+            <button onclick="refresh()" id="btn_refresh">Start Refresh</button>
+        </div>
+
+        <br>
+        <button onclick="get_config()">Get Config</button>
+        <button id="bt_po" onclick="fn_order_paused()">Pause Orders</button>
+        <button onclick="resetlogs()">Reset Logs</button>
+
+        <br><br>
+
+        <div id="div_config" style="display:none">
+            <div align="right"><button onclick="gid('div_config').style.display='none'" style="background-color: firebrick; color:aqua; margin-right:10px"> X </button></div>
+            <table style="background-color:aliceblue; width: 100%" align=center>
+                <tr>
+                    <td>Currency<br><input id="in_currency"></td>
+                    <td>Sell/Buy<br><select id="in_proggress"><option>buy</option><option>sell</option></select></td>
+                    <td>Value Last Buy<br><input id="in_buyvalue"></td>
+                    <td>Value Last Sell<br><input id="in_sellvalue"></td>
+                </tr>
+                <tr>
+                    <td>Profit %<br><input id="in_profit"></td>
+                    <td>Noise %<br><input id="in_noise"></td>
+                </tr>
+            </table>
+            <br>
+            <button onclick="get_currconfig()">Load Current Values</button>
+            <button onclick="set_config(0)">Set & Check New Values</button>
+            <button onclick="set_config(1)" id="bt_setsave" disabled>Save new values & Restart</button>
+            <button onclick="set_config(2)">Restart</button>
+        </div>
+
+    </div>
+    </div>
+    <div id="footer">
+        <h5 style="padding:15px 20px 0px 20px">
+            Binance Bitbot, ver:<span id="version"></span> &copy; 2018 
+            <a href="mailto:nnet.server@gmail.com" style="color:#00ff00">Contact</a>
+        </h5>
+    </div>
+
+
+    <script type="text/javascript">
+        var web_json = /**/ ;
+        var is_refresh = 0;
+        var timeout = null;
+        var funcs = {
+            "getval": 1,
+            "getconf": 2
+        };
+        var order_paused;
+
+        proccess(web_json);
+
+        function gid(x) {
+            return document.getElementById(x);
+        }
+        
+        function resetlogs() {
+            send_ajax("?c=resetlogs", funcs.getval);
+        }
+
+        function get_values() {
+            /*
+           form=new FormData();
+	       form.append("c","getval");
+           */
+            send_ajax("?c=getval", funcs.getval);
+        }
+
+        function get_config() {
+            send_ajax("?c=getconf", funcs.getconf);
+            gid("div_config").style.display="block";
+        }
+
+        function get_currconfig() {
+            gid("bt_setsave").disabled = true;
+            send_ajax("?c=getcurrconf", funcs.getconf);
+        }
+
+        function set_config(x) {
+            if (x == 0) {
+                var str = "currency=" + gid("in_currency").value + "&proggress=" + gid("in_proggress").value + "&buyvalue=" + gid("in_buyvalue").value +
+                    "&sellvalue=" + gid("in_sellvalue").value + "&profit=" + gid("in_profit").value + "&noise=" + gid("in_noise").value;
+
+                gid("bt_setsave").disabled = false;
+
+                send_ajax("?c=setconf&" + str, funcs.getconf);
+            } else
+            if (x == 1) { send_ajax("?c=setrestart", funcs.getconf);gid("bt_setsave").disabled=true;}
+            else send_ajax("?c=restart", funcs.getconf);   
+        }
+        
+        function fn_order_paused(){
+            var str;
+            if (!order_paused) {
+                order_paused=true;
+                str="pause=true"; 
+                gid("bt_po").innerHTML="Run Orders";
+            }
+            else {
+                order_paused=false;
+                str="pause=false";
+                gid("bt_po").innerHTML="Pause Orders";
+            }
+            send_ajax("?c=order_paused&"+str, funcs.getval);
+        }
+
+        function refresh() {
+            if (is_refresh == 0) {
+                get_values();
+                is_refresh = 1;
+                gid("btn_refresh").innerHTML = "Stop Refresh";
+                gid("btn_refresh").className = "btn_on";
+                timeout = setInterval(get_values, (gid("sl_refresh").value)*1000);
+            } else {
+                is_refresh = 0;
+                gid("btn_refresh").innerHTML = "Start Refresh";
+                gid("btn_refresh").className = "btn_off";
+                clearInterval(timeout);
+            }
+        }
+        
+        function req_style(x){
+            if (x==1) {
+                gid("req_icon").style.visibility="visible";
+            }
+            else {
+                gid("req_icon").style.visibility="hidden";
+            }
+        }
+
+        function send_ajax(str, type) {
+
+            //console.log(str);
+            req_style(1);
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4) {
+                    req_style(0);
+                    if (xmlhttp.status == 200) {
+                        gid("ajax_err").innerHTML = "";
+                        if (type == funcs.getval) proccess(xmlhttp.responseText);
+                        else
+                        if (type == funcs.getconf) proccess_conf(xmlhttp.responseText);
+                    } else gid("ajax_err").innerHTML = "Request Error!, wait server to restart ...";
+                }
+            }
+            xmlhttp.open("POST", "values" + str, true);
+            xmlhttp.send();
+        }
+
+        function proccess(web_json) {
+            //console.log("procc ->"+web_json);
+            try {
+                obj = JSON.parse(web_json);
+                //console.log(obj);
+
+                for (var key in obj) {
+                    if (gid(key)) {
+                        val = obj[key];
+                        if (key == "proggress") {
+                            proggress=val;
+                            switch (obj[key]) {
+                                case 0:
+                                    val = "ORDER WAITING";
+                                    break;
+                                case 1:
+                                    val = "BUY";
+                                    break;
+                                case 2:
+                                    val = "SELL";
+                                    break;
+                            }
+                        } else if (key == "profit_now") {
+                            val = (val * 100).toFixed(4);
+                            document.title=val;
+                        }
+                        else if (key == "obok") {
+                            if (!val) val = "Your balance is not enough to ORDER!";
+                            else val="";
+                        }
+                        else if (key == "order_paused") {
+                            order_paused=val;
+                            if (val) val = "(Paused)";
+                            else val="";
+                        }
+                        gid(key).innerHTML = val;
+                    }
+                }
+                //console.log(key+ " " + obj[key]);
+
+            } catch (ex) {
+                console.log(web_json);
+                gid("ajax_err").innerHTML = "Json err: " + ex;
+            }
+
+        }
+
+        function proccess_conf(web_json) {
+            //console.log("conf ->"+web_json);
+            try {
+                obj = JSON.parse(web_json);
+
+                for (var key in obj) {
+                    var keyadd = "in_" + key;
+                    if (gid(keyadd)) {
+                        if (key == "proggress") {
+                            switch (obj[key]) {
+                                case "buy":
+                                    gid("in_proggress").selectedIndex = 0;
+                                    break;
+                                case "sell":
+                                    gid("in_proggress").selectedIndex = 1;
+                                    break;
+                            }
+                        } else gid(keyadd).value = obj[key];
+                    }
+                }
+                //console.log(key+ " " + obj[key]);
+
+            } catch (ex) {
+                console.log(web_json);
+                gid("ajax_err").innerHTML = "Json err: " + ex;
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,2098 @@
+{
+    "123456": {
+        "minNotional": "0.00100000",
+        "minQty": "0.00100000",
+        "maxQty": "100000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ETHBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.00100000",
+        "maxQty": "100000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "LTCBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "100000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "BNBBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "NEOBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "100000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "QTUMETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "EOSETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "SNTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BNTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "BCCBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.00100000",
+        "maxQty": "100000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "GASBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "100000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "BNBETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "BTCUSDT": {
+        "minNotional": "10.00000000",
+        "minQty": "0.00000100",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00000100",
+        "minPrice": "0.01000000",
+        "maxPrice": "10000000.00000000"
+    },
+    "ETHUSDT": {
+        "minNotional": "20.00000000",
+        "minQty": "0.00001000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00001000",
+        "minPrice": "0.01000000",
+        "maxPrice": "10000000.00000000"
+    },
+    "HSRBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "OAXETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "DNTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "MCOETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ICNETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "MCOBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "WTCBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "WTCETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "LRCBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "LRCETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "QTUMBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "YOYOBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "OMGBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "OMGETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ZRXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ZRXETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "STRATBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "STRATETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "SNGLSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "SNGLSETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BQXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BQXETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "KNCBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "KNCETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "FUNBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "FUNETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "SNMBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "SNMETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "NEOETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "IOTABTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "IOTAETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "LINKBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "LINKETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "XVGBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "XVGETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CTRBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CTRETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "SALTBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "SALTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "MDABTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "MDAETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "MTLBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "MTLETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "SUBBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "SUBETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "EOSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "SNTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ETCETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ETCBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "MTHBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "MTHETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ENGBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ENGETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "DNTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ZECBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ZECETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "BNTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ASTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ASTETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "DASHBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "DASHETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "OAXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ICNBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BTGBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "BTGETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "EVXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "EVXETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "REQBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "REQETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "VIBBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "VIBETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "HSRETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "TRXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "TRXETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "POWRBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "POWRETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ARKBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "ARKETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "YOYOETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "XRPBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "XRPETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "MODBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "MODETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ENJBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ENJETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "STORJBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "STORJETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "BNBUSDT": {
+        "minNotional": "10.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00010000",
+        "maxPrice": "100000.00000000"
+    },
+    "VENBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00010000",
+        "maxPrice": "100000.00000000"
+    },
+    "YOYOBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "POWRBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "VENBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "VENETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "KMDBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "KMDETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "NULSBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "RCNBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "RCNETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "RCNBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "NULSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "NULSETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "RDNBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "RDNETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "RDNBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "XMRBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "XMRETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "DLTBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "WTCBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00010000",
+        "maxPrice": "100000.00000000"
+    },
+    "DLTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "DLTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "AMBBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "AMBETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "AMBBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "BCCETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "BCCUSDT": {
+        "minNotional": "20.00000000",
+        "minQty": "0.00001000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00001000",
+        "minPrice": "0.01000000",
+        "maxPrice": "10000000.00000000"
+    },
+    "BCCBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.00001000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00001000",
+        "minPrice": "0.01000000",
+        "maxPrice": "100000.00000000"
+    },
+    "BATBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BATETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BATBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "BCPTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BCPTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BCPTBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "ARNBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ARNETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "GVTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "GVTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "CDTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CDTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "GXSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "GXSETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "NEOUSDT": {
+        "minNotional": "10.00000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00100000",
+        "maxPrice": "10000000.00000000"
+    },
+    "NEOBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00100000",
+        "maxPrice": "10000000.00000000"
+    },
+    "POEBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "POEETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "QSPBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "QSPETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "QSPBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "BTSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BTSETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BTSBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "XZCBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "XZCETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "XZCBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00100000",
+        "maxPrice": "10000000.00000000"
+    },
+    "LSKBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "LSKETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "LSKBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00010000",
+        "maxPrice": "100000.00000000"
+    },
+    "TNTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "TNTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "FUELBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "FUELETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "MANABTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "MANAETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BCDBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "BCDETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "DGDBTC": {
+        "minNotional": "0.00200000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "DGDETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "IOTABNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "ADXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ADXETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "ADXBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "ADABTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ADAETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "PPTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "PPTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "CMTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CMTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CMTBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "XLMBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "XLMETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "XLMBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "CNDBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CNDETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CNDBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "LENDBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "LENDETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "WABIBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "WABIETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "WABIBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "LTCETH": {
+        "minNotional": "0.02000000",
+        "minQty": "0.00100000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00100000",
+        "minPrice": "0.00001000",
+        "maxPrice": "100000.00000000"
+    },
+    "LTCUSDT": {
+        "minNotional": "20.00000000",
+        "minQty": "0.00001000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00001000",
+        "minPrice": "0.01000000",
+        "maxPrice": "10000000.00000000"
+    },
+    "LTCBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.00001000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.00001000",
+        "minPrice": "0.01000000",
+        "maxPrice": "100000.00000000"
+    },
+    "TNBBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "TNBETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "WAVESBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "WAVESETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "WAVESBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00010000",
+        "maxPrice": "100000.00000000"
+    },
+    "GTOBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "GTOETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "GTOBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "ICXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "ICXETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "ICXBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "OSTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "OSTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "OSTBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "ELFBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "ELFETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "AIONBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "AIONETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "AIONBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "NEBLBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "NEBLETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "NEBLBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "BRDBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BRDETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "BRDBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "MCOBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "EDOBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "EDOETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "WINGSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "WINGSETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "NAVBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "NAVETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "NAVBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "LUNBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "LUNETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "TRIGBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "TRIGETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "TRIGBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "APPCBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "APPCETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "APPCBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "VIBEBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "VIBEETH": {
+        "minNotional": "0.02000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "RLCBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "RLCETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "RLCBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "INSBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "INSETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "PIVXBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "PIVXETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "PIVXBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "IOSTBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "IOSTETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CHATBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "CHATETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "STEEMBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "STEEMETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "STEEMBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "NANOBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "NANOETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "NANOBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00010000",
+        "maxPrice": "100000.00000000"
+    },
+    "VIABTC": {
+        "minNotional": "0.00100000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000010",
+        "maxPrice": "100000.00000000"
+    },
+    "VIAETH": {
+        "minNotional": "0.01000000",
+        "minQty": "0.01000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00000100",
+        "maxPrice": "100000.00000000"
+    },
+    "VIABNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    },
+    "BLZBTC": {
+        "minNotional": "0.00100000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BLZETH": {
+        "minNotional": "0.01000000",
+        "minQty": "1.00000000",
+        "maxQty": "90000000.00000000",
+        "stepSize": "1.00000000",
+        "minPrice": "0.00000001",
+        "maxPrice": "100000.00000000"
+    },
+    "BLZBNB": {
+        "minNotional": "1.00000000",
+        "minQty": "0.01000000",
+        "maxQty": "10000000.00000000",
+        "stepSize": "0.01000000",
+        "minPrice": "0.00001000",
+        "maxPrice": "10000.00000000"
+    }
+}

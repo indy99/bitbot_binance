@@ -1,0 +1,21 @@
+{
+  "name": "bitbot_binance",
+  "version": "1.0.5",
+  "description": "Cryptocurrency trading bot for Binance",
+  "main": "bitbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binance",
+    "trading",
+    "bot",
+    "cryptocurrency",
+    "nodejs"
+  ],
+  "author": "indy99",
+  "license": "MIT",
+  "dependencies": {
+    "node-binance-api": "^0.4.17"
+  }
+}
