@@ -8,8 +8,7 @@ npm install
 ```
 Installation is done.
 # Config
-config/config.json enter your Binance APIKEY and APISECRET
-
+config/config.json enter your Binance APIKEY and APISECRET<br>
 config/exchange.json enter your parameters
 
 Note:
