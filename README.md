@@ -7,7 +7,6 @@ cd bitbot_binance
 npm install
 ```
 Installation is done.
-******
 Then to run
 ```
 node bitbot.js
