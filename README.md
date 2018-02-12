@@ -1,4 +1,4 @@
-# bitbot_binance
+# Bitbot Binance
 This program is Cryptocurrency trading bot for Binance. Written in Javascript , NodeJS.
 # Installation
 ```
