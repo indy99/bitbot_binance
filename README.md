@@ -15,3 +15,4 @@ Then to run
 ```
 node bitbot.js
 ```
+for more info: https://kartimbu.com/bitbot/
