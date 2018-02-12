@@ -26,4 +26,4 @@ Web GUI -> Browse http://127.0.0.1:8088/
 for more info: https://kartimbu.com/bitbot/
 
 # Thank You
-If you like it you can send some coins <a href="https://kartimbu.com/pay-acik.php" target="_blank">here</a> to develop project.
+If you like it you can send some coins <a href="https://kartimbu.com/pay-acik.php" target="_blank">here</a> to develop the project.
