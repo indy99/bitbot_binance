@@ -21,5 +21,6 @@ Then to run
 ```
 node bitbot.js
 ```
+Web GUI -> Browse http://127.0.0.1:8088/
 # Notes
 for more info: https://kartimbu.com/bitbot/
