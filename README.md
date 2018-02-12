@@ -9,7 +9,7 @@ npm install
 Installation is done.
 ### Configure first
 Signup Binance ( Referral url: https://www.binance.com/?ref=16102823 )<br>
-Go to API Setting, Crete new key
+Go to API Setting, Crete new key<br>
 'config/config.json' -> enter your Binance APIKEY and APISECRET
 
 
