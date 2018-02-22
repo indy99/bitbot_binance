@@ -27,6 +27,7 @@ var CURR;
 var exchange_fee = 0; //enable bnb
 
 var virgul = 3; //amount after point
+var virgul_price = 3; 
 
 var proggress = 0;
 var alimvalue = 0;
@@ -136,7 +137,7 @@ function main() {
 
                 var karyuzde = alimvalue * KAR / 100;
                 if (value_sell < (parseFloat(alimvalue) + parseFloat(karyuzde))) {
-                    console.log("Sell profit is low : " + ((value_sell - alimvalue) / alimvalue).toFixedNR(8));
+                    console.log("Sell profit is low : " + fark_yuzde);
                     return;
                 }
 
@@ -179,7 +180,7 @@ function main() {
 
                 var karyuzde = satimvalue * KAR / 100;
                 if (value_buy > (satimvalue - karyuzde)) {
-                    console.log("Buy profit is low : " + (1 - (value_buy / satimvalue)).toFixedNR(8));
+                    console.log("Buy profit is low : " + fark_yuzde);
                     return;
                 }
 
@@ -246,7 +247,7 @@ function satisemri(val) {
 
     proggress = 0;
 
-    satimvalue = parseFloat(val).toFixedNR(8);
+    satimvalue = parseFloat(val).toFixedNR(virgul_price);
     var quantity = ((balance1 - (balance1 * exchange_fee / 100))).toFixedNR(virgul);
 
     var str = "Entering SELL order, buy_value: " + alimvalue + ", sell_value: " + val + ", order: " + satimvalue + ", quantity: " + quantity + ", profit : " + ((val - alimvalue) / alimvalue);
@@ -290,7 +291,7 @@ function alisemri(val) {
 
     proggress = 0;
 
-    alimvalue = parseFloat(val).toFixedNR(8);
+    alimvalue = parseFloat(val).toFixedNR(virgul_price);
     var quantity = ((balance2 - (balance2 * exchange_fee / 100)) / alimvalue).toFixedNR(virgul);
 
     var str = "Entering BUY order, sell_value: " + satimvalue + ", buy_value: " + val + ", order: " + alimvalue + ", quantity: " + quantity + ", profit : " + (1 - (alimvalue / satimvalue));
@@ -328,7 +329,7 @@ function alisemri(val) {
 
 function check_order_balance(){
     if (proggress==sell) {
-        var sv = parseFloat(value_sell).toFixedNR(8);
+        var sv = parseFloat(value_sell).toFixedNR(virgul_price);
         var sq = ((balance1 - (balance1 * exchange_fee / 100))).toFixedNR(virgul);    
         if ((sv*sq) < minimums[CURR].minNotional) {
             console.log(console_cl_red,"sell value: "+sv*sq+" < "+minimums[CURR].minNotional,console_cl_res);
@@ -337,7 +338,7 @@ function check_order_balance(){
     }
     else 
     if (proggress==buy) {
-        var av = parseFloat(value_buy).toFixedNR(8);
+        var av = parseFloat(value_buy).toFixedNR(virgul_price);
         var aq = ((balance2 - (balance2 * exchange_fee / 100)) / av).toFixedNR(virgul);
         if ((av*aq) < minimums[CURR].minNotional) {
             console.log(console_cl_red,"buy value: "+av*aq+" < "+minimums[CURR].minNotional,console_cl_res);
@@ -537,13 +538,14 @@ NOISE = config.noise;
 
 try {
     virgul=getPoint(minimums[CURR].minQty);
+    virgul_price=getPoint(minimums[CURR].minPrice);
     init();
 } catch (ex){
     logD(CURR+" is not available !",1);
 }
 
-//var sv = 124.87654321.toFixedNR(1);
-//console.log(sv);
+
+//console.log(val, satimvalue, quantity);
 //exit_program(1);
 
 let Currs=fbb.getCurrNames(CURR);
