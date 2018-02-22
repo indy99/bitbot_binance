@@ -16,10 +16,11 @@ Go to API Setting, Crete new key<br>
 'config/exchange.json' -> enter your exchange parameters
 
 Note:
-This version makes order fee with BNB to less fee. So get some BNB before you trade. And activate this option from your  Binance account:
+a- This version makes order fee with BNB to less fee. So get some BNB before you trade. And activate this option from your  Binance account:
 ```
 Using BNB to pay for fees（50% discount）-> make ON
 ```
+b- There is no limit amount for now, so uses all your balance when making ORDER!
 ***
 Then to run
 ```
