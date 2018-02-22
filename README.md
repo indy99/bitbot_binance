@@ -3,6 +3,7 @@ This program is Cryptocurrency trading bot for Binance. Written in Javascript , 
 ### Installation
 ```
 git clone https://github.com/indy99/bitbot_binance
+(if you don't have "git" download and extarct)
 cd bitbot_binance
 npm install
 ```
