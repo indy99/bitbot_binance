@@ -27,7 +27,7 @@ var CURR;
 var exchange_fee = 0; //enable bnb
 
 var virgul = 3; //amount after point
-var virgul_price = 3; 
+var virgul_pric = 3; 
 
 var proggress = 0;
 var alimvalue = 0;
