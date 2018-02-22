@@ -1,5 +1,5 @@
 # Bitbot Binance
-This program is Cryptocurrency trading bot for Binance. Written in Javascript , NodeJS.
+This program is Cryptocurrency trading bot for Binance. Written in Javascript , running on NodeJS.
 ### Installation
 ```
 git clone https://github.com/indy99/bitbot_binance
