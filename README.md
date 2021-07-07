@@ -31,6 +31,8 @@ Web GUI -> Browse http://127.0.0.1:8088/
 ### Notes
 for more info: https://kartimbu.com/bitbot/
 
+Pro version is here https://bitbot.kartimbu.com/ 
+
 ### Thank You
 Thanks jaggedsoft for repo: https://github.com/jaggedsoft/node-binance-api
 
